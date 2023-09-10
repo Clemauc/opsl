@@ -1,0 +1,37 @@
+{
+  "name": "Opération Sacs Légers",
+  "short_name": "OSL",
+  "start_url": "/index.html",
+  "display": "standalone",
+  "background_color": "#0099FF",
+  "theme_color": "#0099FF",
+  "orientation": "any",
+  "icons": [
+    {
+      "src": "../styles/images/logo/48.png",
+      "type": "image/png",
+      "sizes": "48x48"
+    },
+    {
+      "src": "../styles/images/logo/96.png",
+      "type": "image/png",
+      "sizes": "96x96"
+    },
+    {
+      "src": "../styles/images/logo/512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    },
+    {
+      "src": "/styles/images/logo/192.png",
+      "type": "image/png",
+      "sizes": "192x192",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "../styles/images/logo/1024.png",
+      "type": "image/png",
+      "sizes": "1024x1024"
+    }
+  ]  
+}

@@ -1,0 +1,470 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+
+
+section.top-page {
+    background-color: rgb(0, 153, 255);
+    background-size: cover;
+    height: 100%;
+    padding: 2.5%;
+}
+
+.link {
+    list-style: none;
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+section.top-page3 {
+    background-color: rgb(0, 153, 255);
+    background-size: cover;
+    height: 100%;
+    padding: 30px;
+}
+
+/* menu de nav */
+
+nav.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    list-style: none;
+    width: 100%;
+    height: 100%;
+    flex-direction: row;
+    padding: 0 10px;
+}
+
+.Tronc-commun {
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.mat-box {
+    margin: 10px;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    min-width: 190px;
+    min-height: 260px;
+    max-width: 190px;
+    max-height: 260px;
+    flex: 1;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 20px;
+}
+
+.mat-box::before{
+    content: "Aller";
+    color: black;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #FFFFFFDF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: -100%;
+    transition: left 0.4s;
+    font-size: 25px;
+    font-weight: 500;
+
+}
+
+.mat-box3 {
+    margin: 10px;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    min-width: 190px;
+    max-width: 190px;
+    min-height: 240px;
+    max-height: 240px;
+    flex: 1;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 20px;
+}
+
+.mat-box3::before {
+    content: "Aller";
+    color: black;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #FFFFFFDF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: -100%;
+    transition: left 0.4s;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+/* .mat-box2 {
+    margin: 10px;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    min-width: 190px;
+    min-height: 260px;
+    max-width: 190px;
+    max-height: 260px;
+    flex: 1;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 20px;
+}
+
+.mat-box2::before {
+    content: "Indisponible";
+    color: black;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #FFFFFFDF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: -100%;
+    transition: left 0.4s;
+    font-size: 25px;
+    font-weight: 500;
+
+} */
+
+.mat-box:hover::before {
+    left: 0;
+}
+
+.mat-box3:hover::before {
+    left: 0;
+}
+
+/* .mat-box2:hover::before {
+    left: 0;
+} */
+
+.tcs1 {
+    background-image: url(../images/seconde/anglais.jpg);
+}
+
+.tcs2 {
+    background-image: url(../images/seconde/espagnol.jpg);
+}
+
+.tcs3 {
+    background-image: url(../images/seconde/histoire.jpg);
+}
+
+.tcs4 {
+    background-image: url(../images/seconde/geographie.jpg);
+}
+
+.tcs5 {
+    background-image: url(../images/seconde/allemand.jpg);
+}
+
+.tcs6 {
+    background-image: url(../images/seconde/maths.jpg);
+}
+
+.tcs7 {
+    background-image: url(../images/seconde/phys.jpg);
+}
+
+.tcs8 {
+    background-image: url(../images/seconde/svt.jpg);
+}
+
+.tcs9 {
+    background-image: url(../images/seconde/ses.jpg);
+}
+
+.tcp1 {
+    background-image: url(../images/premiere/anglais.jpg);
+}
+
+.tcp2 {
+    background-image: url(../images/premiere/espagnol.jpg);
+}
+
+.tcp3 {
+    background-image: url(../images/premiere/histoire.jpg);
+}
+
+.tcp4 {
+    background-image: url(../images/premiere/geographie.jpg);
+}
+
+.tcp5 {
+    background-image: url(../images/premiere/enssc.jpg);
+}
+
+.tcp6 {
+    background-image: url(../images/premiere/maths.jpg);
+}
+
+.tcp7 {
+    background-image: url(../images/premiere/phys.jpg);
+}
+
+.tcp8 {
+    background-image: url(../images/premiere/svt.jpg);
+}
+
+.tcp9 {
+    background-image: url(../images/premiere/hggsp.jpg);
+}
+
+.tcp10 {
+    background-image: url(../images/premiere/ses.jpg);
+}
+
+.tcp11 {
+    background-image: url(../images/premiere/llce.jpg);
+}
+
+.tct1 {
+    background-image: url(../images/terminale/anglais.jpg);
+}
+
+.tct2 {
+    background-image: url(../images/terminale/allemand.jpg);
+}
+
+.tct3 {
+    background-image: url(../images/terminale/espagnol.jpg);
+}
+
+.tct4 {
+    background-image: url(../images/terminale/histoire.jpg);
+}
+
+.tct5 {
+    background-image: url(../images/terminale/geographie.jpg);
+}
+
+.tct6 {
+    background-image: url(../images/terminale/philo.jpg);
+}
+
+.tct7 {
+    background-image: url(../images/terminale/enssc.jpg);
+}
+
+.tct8 {
+    background-image: url(../images/terminale/maths.jpg);
+}
+
+.tct9 {
+    background-image: url(../images/terminale/phys.jpg);
+}
+
+.tct10 {
+    background-image: url(../images/terminale/svt.jpg);
+}
+
+.tct11 {
+    background-image: url(../images/terminale/hggsp.jpg);
+}
+
+.tct12 {
+    background-image: url(../images/terminale/ses.jpg);
+}
+
+.tct13 {
+    background-image: url(../images/terminale/llce.jpg);
+}
+
+.tct14 {
+    background-image: url(../images/terminale/si.jpg);
+}
+
+.tct15 {
+    background-image: url(../images/terminale/mathse.jpg);
+}
+
+.tct16 {
+    background-image: url(../images/terminale/mathsc.jpg);
+}
+
+.p1 {
+    background-image: url(../images/premiere/bph.jpg);
+}
+
+.p2 {
+    background-image: url(../images/premiere/maths-st2s.jpg);
+}
+
+.p3 {
+    background-image: url(../images/premiere/chimie.jpg);
+}
+
+.t1 {
+    background-image: url(../images/terminale/philo-st2s.jpg);
+}
+
+.t2 {
+    background-image: url(../images/terminale/bph.jpg);
+}
+
+.t3 {
+    background-image: url(../images/terminale/maths-st2s.jpg);
+}
+
+.t4 {
+    background-image: url(../images/terminale/philo-st2s.jpg);
+}
+
+.t5 {
+    background-image: url(../images/terminale/chimie.jpg);
+}
+
+.rs1 {
+    background-image: url(../images/seconde/mathsr.jpg);
+}
+
+.rs2 {
+    background-image: url(../images/seconde/maths.jpg);
+}
+
+.rp1 {
+    background-image: url(../images/premiere/hggspr.jpg);
+}
+
+.rt1 {
+    background-image: url(../images/terminale/sesr.jpg);
+}
+
+.rt2 {
+    background-image: url(../images/terminale/mathsr.jpg);
+}
+
+.rt3 {
+    background-image: url(../images/terminale/mathsr2.jpg);
+}
+
+.rt4 {
+    background-image: url(../images/terminale/mathscr.jpg);
+}
+
+.rt5 {
+    background-image: url(../images/terminale/llcer.jpg);
+}
+
+.rt6 {
+    background-image: url(../images/terminale/philor.jpg);
+}
+
+.slid {
+    background-color: rgb(0, 153, 255);
+    overflow: hidden;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2.5%;
+}
+
+.slider {
+    box-shadow: 0px 10px 20px rgba(0, 153, 255, 0.4);
+    width: 300%;
+}
+
+.sliderr {
+    box-shadow: 0px 10px 20px rgba(0, 153, 255, 0.4);
+    width: 100%;
+}
+
+li.st {
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    padding: 2.5%;
+    width: 100%;
+    height: 100%;
+}
+
+.slide p {
+    color: white;
+    font-size: 12px;
+}
+
+em {
+    font-size: 10px;
+}
+
+.slide {
+    width: 100%;
+    height: 100%;
+}
+
+.slides {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    animation: gliss 30s infinite;
+    list-style: none;
+}
+
+.slidesr {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    list-style: none;
+}
+
+@keyframes gliss {
+    0%{
+        transform: translateX(0px);
+    }
+    30%{
+        transform: translateX(0px);
+    }
+    33%{
+        transform: translateX(-33%);
+    }
+    63%{
+        transform: translateX(-33%);
+    }
+    66%{
+        transform: translateX(-66%);
+    }
+    97%{
+        transform: translateX(-66%);
+    }
+    100%{
+        transform: translateX();
+    }
+}
+
+.connexion {
+    background-color: rgb(0, 153, 255);
+}
+
+.connect ul {
+    margin: 0;
+    list-style: none;
+}
+
+.connect ul li {
+    color: white;
+    text-decoration: none;
+}

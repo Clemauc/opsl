@@ -1,0 +1,293 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap");
+
+* {
+  font-family: 'Montserrat';
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+header.header {
+  display: flex;
+  align-items: center;
+}
+
+body {
+  margin: 0 auto;
+}
+
+.big-title {
+  color: white;
+  font-size: 100px;
+  padding: 15px 50px;
+  font-family: 'Abril FatFace';
+  font-weight: 100;
+  text-align: center;
+}
+
+section.top-page2 {
+  background-color: rgb(0, 153, 255);
+  background-size: cover;
+  height: 100%;
+  padding: 25px;
+}
+
+nav.nav2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  list-style: none;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  flex-direction: row-reverse;
+  padding-right: 50px;
+}
+
+nav.nav li {
+  width: 100%;
+  padding: 0 5px;
+}
+
+nav.nav2 li a {
+  text-decoration: none;
+  color: white;
+}
+
+.sub-title {
+  margin: 50px;
+  font-size: 30px;
+}
+
+.text-first {
+  margin-top: 20px;
+  margin-left: 50px;
+  font-size: 20px;
+  padding-right: 20%;
+  font-weight: 0;
+}
+
+em{
+  font-weight: 500;
+}
+
+.text {
+  margin-top: -20px;
+  margin-left: 50px;
+  font-size: 20px;
+  padding-right: 20%;
+}
+
+.textr {
+  margin-top: -30px;
+  margin-left: 50px;
+  font-size: 14px;
+  padding-right: 20%;
+}
+
+.textr2 {
+  margin-top: -10px;
+  margin-left: 50px;
+  font-size: 14px;
+  padding-right: 20%;
+}
+
+footer a.cgu {
+  text-decoration: none;
+  color: black;
+  width: 100%;
+  padding: 5px;
+}
+
+footer p {
+  width: 100%;
+  padding: 5px;
+}
+
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 2% 5%;
+  font-weight: 600;
+  text-align: center;
+}
+
+.section-title {
+  margin: 30px;
+  font-size: 50px;
+  font-family: 'Abril FatFace';
+  font-weight: 100;
+  position: relative;
+}
+
+.section-title::before {
+  content: "";
+  position: absolute;
+  background-color: #0099ff;
+  width: 30px;
+  height: 7px;
+  bottom: 0;
+}
+
+.manuels {
+  margin-top: 5%;
+  margin-left: 1.5%;
+}
+
+header.header img {
+  width: 150px;
+}
+
+nav.nav li a {
+  text-decoration: none;
+  color: white;
+}
+
+#nav .burger span {
+  background-color: white;
+}
+
+#nav .burger span::before {
+  background-color: white;
+}
+
+#nav .burger span::after {
+  background-color: white;
+}
+
+.blockbuster {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.lien {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  text-decoration: none;
+  color: black;
+  font-size: x-small;
+  padding: 5px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 1280px) {
+  .header .img {
+    width: 12%;
+  }
+  .big-title {
+    font-size: 80px;
+  }
+  footer {
+    font-size: xx-small;
+  }
+  .Tronc-commun {
+    justify-content: center;
+    align-items: center;
+  }
+  #nav .row.active li {
+    padding: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  #nav ul {
+    background-color: rgb(0, 155, 253);
+  }
+  #nav ul li a {
+    color: white;
+  }
+  .text-first{
+    font-size: 16px;
+  }
+  .section-title {
+    font-size: 30px;
+  }
+  .section-title::before {
+    height: 5px;
+    width: 20px;
+  }
+  .sub-title {
+    font-size: 20px;
+    margin: 30px 50px;
+  }
+  .big-title {
+    font-size: 78px;
+  }
+  #nav2 {
+    padding: 0;
+    flex-direction: column;
+  }
+
+}
+
+@media (max-height: 700px) {
+  .big-title {
+    font-size: 80px;
+    padding: 10px;
+  }
+  .Tronc-commun {
+    margin: 10px 0;
+  }
+  .section-title {
+    font-size: 20px;
+    margin: 20px;
+  }
+  .section-title::before{
+    width: 20px;
+    height: 3px;
+  }
+  .sub-title {
+    font-size: 20px;
+    margin: 30px;
+    margin-top: 30px;
+  }
+  footer {
+    margin: 10px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 540px) {
+  .big-title {
+    font-size: 60px;
+    padding: 10px;
+  }
+}
+
+@media (max-width: 432px) {
+  .mat-box3 {
+    min-height: 260px;
+    max-height: 260px;
+  }
+  .section-title {
+    font-size: 25px;
+  }
+  .section-title::before {
+    width: 15px;
+  }
+}
+
+@media (max-width: 350px) {
+  #nav .row.active li {
+    padding: 2.5% 0;
+  }
+}
+
+@media (max-width: 300px) {
+  .big-title {
+    font-size: 50px;
+  }
+  .row.active li {
+    padding: 0;
+  }
+}

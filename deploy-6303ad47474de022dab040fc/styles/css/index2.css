@@ -1,0 +1,596 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+
+
+section.top-page {
+    background-size: cover;
+    height: 100%;
+    padding: 2.5%;
+    background-color: white;
+}
+
+section.top-page3 {
+    background-size: cover;
+    height: 100%;
+    padding: 30px;
+    background-color: white;
+}
+
+.mat-box::before{
+    content: "Aller";
+    color: white;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 153, 255, 0.685);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: -100%;
+    transition: left 0.4s;
+    font-size: 25px;
+    font-weight: 500;
+
+}
+
+.mat-box2::before {
+    content: "Indisponible";
+    color: white;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 153, 255, 0.685);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: -100%;
+    transition: left 0.4s;
+    font-size: 25px;
+    font-weight: 500;
+
+}
+
+.big-title {
+  color: rgb(0, 153, 255);
+  font-size: 100px;
+  padding: 15px 50px;
+  font-family: 'Abril FatFace';
+  font-weight: 100;
+  text-align: center;
+}
+
+footer a.cgu {
+  text-decoration: none;
+  color: white;
+  width: 100%;
+  padding: 5px;
+}
+
+footer p {
+  width: 100%;
+  padding: 5px;
+}
+
+nav.nav li a {
+  text-decoration: none;
+  color: rgb(0, 153, 255);
+}
+
+#nav .burger span {
+  background-color: rgb(0, 153, 255);
+}
+
+#nav .burger span::before {
+  background-color: rgb(0, 153, 255);
+}
+
+#nav .burger span::after {
+  background-color: rgb(0, 153, 255);
+}
+
+
+
+/* identique */
+
+/* menu de nav */
+
+nav.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  list-style: none;
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+  list-style: none;
+  width: 100%;
+  height: 100%;
+  flex-direction: row;
+  padding: 0 10px;
+}
+
+.Tronc-commun {
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.mat-box {
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  min-width: 190px;
+  min-height: 260px;
+  max-width: 190px;
+  max-height: 260px;
+  flex: 1;
+  overflow: hidden;
+  border-radius: 20px;
+  margin: 10px;
+}
+
+/* .mat-box2 {
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    min-width: 190px;
+    min-height: 260px;
+    max-width: 190px;
+    max-height: 260px;
+    flex: 1;
+    overflow: hidden;
+    border-radius: 20px;
+    margin: 10px;
+} */
+
+.mat-box:hover::before {
+    left: 0;
+}
+
+/* .mat-box2:hover::before {
+    left: 0;
+} */
+
+* {
+  font-family: 'Montserrat';
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+header.header {
+  display: flex;
+  align-items: center;
+}
+
+body {
+  margin: 0 auto;
+  background-color: rgb(0, 153, 255);
+}
+
+nav.nav li {
+  width: 100%;
+  padding: 0 5px;
+}
+
+.sub-title {
+  margin: 50px;
+  font-size: 30px;
+  color: white;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 2% 5%;
+  font-weight: 600;
+  color: white;
+  text-align: center;
+}
+
+.section-title {
+  margin: 30px;
+  font-size: 50px;
+  font-family: 'Abril FatFace';
+  font-weight: 100;
+  position: relative;
+  color: white;
+}
+
+.section-title::before {
+  content: "";
+  position: absolute;
+  background-color: white;
+  width: 40px;
+  height: 7px;
+  bottom: 0;
+}
+
+.manuels {
+  margin-top: 5%;
+  margin-left: 1.5%;
+}
+
+header.header img {
+  width: 150px;
+}
+
+.tcs1 {
+  background-image: url(../images/seconde/anglais.jpg);
+}
+
+.tcs2 {
+  background-image: url(../images/seconde/espagnol.jpg);
+}
+
+.tcs3 {
+  background-image: url(../images/seconde/histoire.jpg);
+}
+
+.tcs4 {
+  background-image: url(../images/seconde/geographie.jpg);
+}
+
+.tcs5 {
+  background-image: url(../images/seconde/allemand.jpg);
+}
+
+.tcs6 {
+  background-image: url(../images/seconde/maths.jpg);
+}
+
+.tcs7 {
+  background-image: url(../images/seconde/phys.jpg);
+}
+
+.tcs8 {
+  background-image: url(../images/seconde/svt.jpg);
+}
+
+.tcs9 {
+  background-image: url(../images/seconde/ses.jpg);
+}
+
+.tcp1 {
+  background-image: url(../images/premiere/anglais.jpg);
+}
+
+.tcp2 {
+  background-image: url(../images/premiere/espagnol.jpg);
+}
+
+.tcp3 {
+  background-image: url(../images/premiere/histoire.jpg);
+}
+
+.tcp4 {
+  background-image: url(../images/premiere/geographie.jpg);
+}
+
+.tcp5 {
+  background-image: url(../images/premiere/enssc.jpg);
+}
+
+.tcp6 {
+  background-image: url(../images/premiere/maths.jpg);
+}
+
+.tcp7 {
+  background-image: url(../images/premiere/phys.jpg);
+}
+
+.tcp8 {
+  background-image: url(../images/premiere/svt.jpg);
+}
+
+.tcp9 {
+  background-image: url(../images/premiere/hggsp.jpg);
+}
+
+.tcp10 {
+  background-image: url(../images/premiere/ses.jpg);
+}
+
+.tcp11 {
+  background-image: url(../images/premiere/llce.jpg);
+}
+
+.tct1 {
+  background-image: url(../images/terminale/anglais.jpg);
+}
+
+.tct2 {
+  background-image: url(../images/terminale/allemand.jpg);
+}
+
+.tct3 {
+  background-image: url(../images/terminale/espagnol.jpg);
+}
+
+.tct4 {
+  background-image: url(../images/terminale/histoire.jpg);
+}
+
+.tct5 {
+  background-image: url(../images/terminale/geographie.jpg);
+}
+
+.tct6 {
+  background-image: url(../images/terminale/philo.jpg);
+}
+
+.tct7 {
+  background-image: url(../images/terminale/enssc.jpg);
+}
+
+.tct8 {
+  background-image: url(../images/terminale/maths.jpg);
+}
+
+.tct9 {
+  background-image: url(../images/terminale/phys.jpg);
+}
+
+.tct10 {
+  background-image: url(../images/terminale/svt.jpg);
+}
+
+.tct11 {
+  background-image: url(../images/terminale/hggsp.jpg);
+}
+
+.tct12 {
+  background-image: url(../images/terminale/ses.jpg);
+}
+
+.tct13 {
+  background-image: url(../images/terminale/llce.jpg);
+}
+
+.tct14 {
+  background-image: url(../images/terminale/si.jpg);
+}
+
+.tct15 {
+  background-image: url(../images/terminale/mathse.jpg);
+}
+
+.tct16 {
+  background-image: url(../images/terminale/mathsc.jpg);
+}
+
+.slid {
+  background-color: white;
+  overflow: hidden;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2.5% 0;
+}
+
+.slider {
+  box-shadow: 0px 10px 20px rgba(255, 255, 255, 0.5);
+  width: 400%;
+}
+
+li.st {
+  color: rgb(0, 153, 255);
+  text-align: center;
+  font-size: 20px;
+  padding: 2.5%;
+}
+
+.slide p {
+  color: rgb(0, 153, 255);
+  font-size: 12px;
+}
+
+em {
+  font-size: 10px;
+}
+
+.slide {
+  width: 100%;
+  height: 100%;
+}
+
+.slides {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  animation: gliss 60s infinite;
+  list-style: none;
+}
+
+@keyframes gliss {
+  0%{
+      transform: translateX(0px);
+  }
+  30%{
+      transform: translateX(0px);
+  }
+  33%{
+      transform: translateX(-25%);
+  }
+  63%{
+      transform: translateX(-25%);
+  }
+  66%{
+      transform: translateX(-50%);
+  }
+  97%{
+      transform: translateX(-50%);
+  }
+  100%{
+      transform: translateX(-75%);
+  }
+}
+
+.mat-box3 {
+  margin: 10px;
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  min-width: 190px;
+  max-width: 190px;
+  min-height: 240px;
+  max-height: 240px;
+  flex: 1;
+  overflow: hidden;
+  display: flex;
+  flex-wrap: wrap;
+  border-radius: 20px;
+}
+
+.mat-box3::before {
+  content: "Aller";
+  color: white;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 153, 255, 0.685);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  left: -100%;
+  transition: left 0.4s;
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.mat-box3:hover::before {
+  left: 0;
+}
+
+.blockbuster {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.lien {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  text-decoration: none;
+  color: white;
+  font-size: x-small;
+  padding: 5px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 768px) {
+  #nav ul {
+    background-color: white;
+  }
+  #nav ul li a {
+    color: rgb(0, 153, 255);
+  }
+  .text-first{
+    font-size: 16px;
+  }
+  .section-title {
+    font-size: 30px;
+  }
+  .section-title::before {
+    height: 5px;
+    width: 20px;
+  }
+  .sub-title {
+    font-size: 20px;
+    margin: 30px 50px;
+  }
+}
+
+@media (max-width: 1280px) {
+  .header .img {
+    width: 12%;
+  }
+  .big-title {
+    font-size: 80px;
+  }
+  footer {
+    font-size: xx-small;
+  }
+  .Tronc-commun {
+    justify-content: center;
+    align-items: center;
+  }
+  #nav .row.active li {
+    padding: 1.5% 0;
+  }
+}
+
+@media (max-height: 700px) {
+  .big-title {
+    font-size: 80px;
+    padding: 10px;
+  }
+  .Tronc-commun {
+    margin: 10px 0;
+  }
+  .section-title {
+    font-size: 20px;
+    margin: 20px;
+  }
+  .section-title::before{
+    width: 20px;
+    height: 3px;
+  }
+  .sub-title {
+    font-size: 20px;
+    margin: 30px;
+    margin-top: 30px;
+  }
+  footer {
+    margin: 10px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 540px) {
+  .big-title {
+    font-size: 60px;
+    padding: 10px;
+  }
+}
+
+@media (max-width: 300px) {
+  .big-title {
+    font-size: 50px;
+  }
+  .row.active li {
+    padding: 0;
+  }
+}
+
+@media (max-width: 350px) {
+  #nav .row.active li {
+    padding: 2.5% 0;
+  }
+}
+
+@media (max-width: 432px) {
+  .mat-box3 {
+    min-height: 260px;
+    max-height: 260px;
+  }
+  .section-title {
+    font-size: 25px;
+  }
+  .section-title::before {
+    width: 15px;
+  }
+}
